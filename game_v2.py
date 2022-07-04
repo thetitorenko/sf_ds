@@ -51,5 +51,3 @@ def score_game(random_predict) -> int:
 # call function for module
 if __name__ == '__main__':
     score_game(random_predict)
-    
-# test 
