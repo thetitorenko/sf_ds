@@ -26,7 +26,24 @@ def random_predict(number:int=np.random.randint(1, 101)) -> int:
         elif predict_number < number:
             lst_num = lst_num[half:]    # cut off the list, loop1=[50:100]
         lst_num = lst_num[:half]        # cut off the list, loop1=[0:49]
+        
     return count
 
+def score(random_predict) -> int:
+    """Runs main function 1000 times
 
-print(random_predict())
+    Args:
+        random_predict (_type_): Main function
+
+    Returns:
+        int: Minimun count of attempts after 1000 times
+    """    
+    counter_ls = []
+    for i in range(1000): # run main function 1000 times
+        counter_ls.append(random_predict())
+    result = int(np.mean(counter_ls)) # calculate mean
+    
+    return result
+
+
+print(f'The minimum count of attempts, during 1000 times, is {score(random_predict)}')
