@@ -16,16 +16,16 @@ def random_predict(number:int=np.random.randint(1, 101)) -> int:
         int: Count of attempt(s)
     """    
     count = 0
-    lst_num = list(range(101)) # generating list 0-100
+    lst_num = list(range(101)) # Generating list 0-100
     
     while True:
         count += 1
-        predict_number = int(np.mean(lst_num)) # select mean number, loop1=50
-        half = round(len(lst_num)/2) # find index of the middle of list
+        predict_number = int(np.mean(lst_num)) # Select mean number, loop1=50
+        half = round(len(lst_num)/2) # Find index of the middle of list
         if predict_number == number: break
         elif predict_number < number:
-            lst_num = lst_num[half:]    # cut off the list, loop1=[50:100]
-        lst_num = lst_num[:half]        # cut off the list, loop1=[0:49]
+            lst_num = lst_num[half:]    # Cut off the list, loop1=[50:100]
+        lst_num = lst_num[:half]        # Cut off the list, loop1=[0:49]
         
     return count
 
@@ -39,9 +39,9 @@ def score(random_predict) -> int:
         int: Minimun count of attempts after 1000 times
     """    
     counter_ls = []
-    for i in range(1000): # run main function 1000 times
+    for i in range(1000): # Run main function 1000 times
         counter_ls.append(random_predict())
-    result = int(np.mean(counter_ls)) # calculate mean
+    result = int(np.mean(counter_ls)) # Calculate mean
     
     return result
 
