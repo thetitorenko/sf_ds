@@ -29,6 +29,7 @@ def random_predict(number:int=np.random.randint(1, 101)) -> int:
         
     return count
 
+
 def score(random_predict) -> int:
     """Runs main function 1000 times
 
