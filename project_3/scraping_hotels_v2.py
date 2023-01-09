@@ -38,14 +38,14 @@ def scraping_hotels_v2(hotel_name: str) -> list:
 
         hotel_url = driver.find_element(
             By.XPATH, "//a[@data-stid='open-hotel-information']"
-        ).get_attribute('href')
+            ).get_attribute('href')
 
         driver.get(hotel_url)
 
         soup = BeautifulSoup(driver.page_source, 'lxml')
-        star_draft = soup.find_all('div', {'class': 'uitk-text uitk-type-300 uitk-text-default-theme'})
+        elements = soup.find_all('div', {'class': 'uitk-text uitk-type-300 uitk-text-default-theme'})
 
-        for elem in star_draft:
+        for elem in elements:
             if 'star' in elem.text.split()[0][-4:]:
                 star = float(elem.text.split()[0].split('-')[0])
                 driver.close()
