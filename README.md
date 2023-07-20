@@ -6,3 +6,4 @@ From the [Skillfactory Data Science course](https://skillfactory.ru/data-scienti
 1. [Project 1. Basic EDA and data cleaning of HH.ru applicants dataset](https://github.com/thetitorenko/sf_data_science/tree/main/project_1)
 2. [Project 2. HH.ru dataset. Uploading new data. Refinement of the analysis](https://github.com/thetitorenko/sf_data_science/tree/main/project_2)
 3. [Project 3. Predict the rating of a hotel on Booking.com](https://github.com/thetitorenko/sf_data_science/tree/main/project_3)
+4. [Project 4. Classifying bank customers](https://github.com/thetitorenko/sf_data_science/tree/main/project_4)
