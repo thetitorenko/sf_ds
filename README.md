@@ -1,9 +1,12 @@
-# My data science projects
-From the [Skillfactory Data Science course](https://skillfactory.ru/data-scientist-pro)
-***
-## Projects
-0. [Project 0. Game: Guess the Number](https://github.com/thetitorenko/sf_data_science/tree/main/project_0)
-1. [Project 1. Basic EDA and data cleaning of HH.ru applicants dataset](https://github.com/thetitorenko/sf_data_science/tree/main/project_1)
-2. [Project 2. HH.ru dataset. Uploading new data. Refinement of the analysis](https://github.com/thetitorenko/sf_data_science/tree/main/project_2)
-3. [Project 3. Predict the rating of a hotel on Booking.com](https://github.com/thetitorenko/sf_data_science/tree/main/project_3)
-4. [Project 4. Classifying bank customers](https://github.com/thetitorenko/sf_data_science/tree/main/project_4)
+# О репозитории
+Данный репозиторий представляет собой сборник моих проектов, домашних заданий и [учебного материала](https://github.com/thetitorenko/sf_data_science/tree/main/course) по курсу ["Профессия Data Scientist"](https://skillfactory.ru/data-scientist-pro) от онлайн-школы Skillfactory.
+
+## Проекты
+0. [Проект/игра: угадай число](https://github.com/thetitorenko/sf_data_science/tree/main/projects/project_0)
+1. [Проект по базовому разведывательному анализу и чистке данных в датасете соискателей сайта HH.ru](https://github.com/thetitorenko/sf_data_science/tree/main/projects/project_1)
+2. [Проект по анализу вакансий на HH.ru с использованием SQL](https://github.com/thetitorenko/sf_data_science/tree/main/projects/project_2)
+3. [Проект по прогнозированию рейтинга отеля на Booking.com](https://github.com/thetitorenko/sf_data_science/tree/main/projects/project_3)
+4. [Проект по задаче классификации клиентов банка](https://github.com/thetitorenko/sf_data_science/tree/main/projects/project_4)
+
+## Домашние задания
+0. ...
