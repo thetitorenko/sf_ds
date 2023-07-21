@@ -1,5 +1,3 @@
-["Профессия Data Scientist"](https://skillfactory.ru/data-scientist-pro)
-
 ## **Блок 4. Введение в машинное обучение**
 
 ### ML-1. Теория машинного обучения
