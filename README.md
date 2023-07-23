@@ -1,5 +1,5 @@
 # О репозитории
-Данный репозиторий представляет собой сборник моих проектов, домашних заданий и [учебного материала](https://github.com/thetitorenko/sf_data_science/tree/main/course) по курсу ["Профессия Data Scientist"](https://skillfactory.ru/data-scientist-pro) от онлайн-школы Skillfactory.
+Данный репозиторий представляет собой сборник моих проектов и заданий выполненных в рамках курса ["Профессия Data Scientist"](https://github.com/thetitorenko/sf_ds_course) от онлайн-школы Skillfactory.
 
 ## Проекты
 0. [Проект/игра: угадай число](https://github.com/thetitorenko/sf_data_science/tree/main/projects/project_0)
@@ -8,5 +8,5 @@
 3. [Проект по прогнозированию рейтинга отеля на Booking.com](https://github.com/thetitorenko/sf_data_science/tree/main/projects/project_3)
 4. [Проект по задаче классификации клиентов банка](https://github.com/thetitorenko/sf_data_science/tree/main/projects/project_4)
 
-## Домашние задания
+## Задания
 0. ...
