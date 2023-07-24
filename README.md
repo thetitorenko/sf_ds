@@ -1,5 +1,5 @@
 # О репозитории
-Данный репозиторий представляет собой сборник моих проектов и заданий выполненных в рамках курса ["Профессия Data Scientist"](https://github.com/thetitorenko/sf_ds_course) от онлайн-школы Skillfactory.
+Данный репозиторий представляет собой сборник моих проектов и заданий выполненных в рамках курса "Профессия Data Scientist" от онлайн-школы Skillfactory.
 
 ## Проекты
 0. [Проект/игра: угадай число](https://github.com/thetitorenko/sf_data_science/tree/main/projects/project_0)
